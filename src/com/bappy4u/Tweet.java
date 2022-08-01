@@ -6,7 +6,7 @@ public class Tweet {
     public User user;
     public Tweet(String tweet)
     {
-        if (tweet.length()>120){
+        if (tweet.length()<120){
             this.tweet = tweet;
         }
         else{
@@ -22,4 +22,6 @@ public class Tweet {
     public String getTweet(){
         return this.tweet;
     }
+
+
 }

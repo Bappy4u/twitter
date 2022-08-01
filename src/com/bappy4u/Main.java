@@ -7,5 +7,7 @@ public class Main {
         User bappy = new User("Bappy");
 
         bappy.createTweet("Hi, This is my first tweet.");
+
+        System.out.println(bappy);
     }
 }
