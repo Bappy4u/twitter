@@ -7,4 +7,9 @@ public class User {
 
         System.out.println("User is created.");
     }
+
+    public void createTweet(String tweet){
+        Tweet created = new Tweet(tweet);
+
+    }
 }
