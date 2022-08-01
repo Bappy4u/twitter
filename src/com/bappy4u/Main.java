@@ -8,6 +8,6 @@ public class Main {
 
         bappy.createTweet("Hi, This is my first tweet.");
 
-        System.out.println(bappy);
+        bappy.tweets();
     }
 }

@@ -15,7 +15,7 @@ public class User {
         Tweet tweets = new Tweet(tweet);
         this.tweetArrayList.add(tweets);
     }
-    void tweets(){
+    public void tweets(){
         for (Tweet tweet: this.tweetArrayList){
             System.out.println(tweet.getTweet());
         }
